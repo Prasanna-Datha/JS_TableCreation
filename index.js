@@ -70,7 +70,7 @@ function createRow(body) {
   });
   actionsTd.appendChild(addButton);
 
-  // Checking is the table already has atleast one row inside the table body for appending the "Delete" button.
+  // Checking if the table already has atleast one row inside the table body for appending the "Delete" button.
   if (totalRows > 0) {
     // Creating the "Add" button and attaching a click event listener for adding a new row.
     var deleteButton = document.createElement("button");
